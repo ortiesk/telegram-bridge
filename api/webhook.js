@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const GAS_URL = "https://script.google.com/macros/s/AKfycbzpSKsQSzuBpxfkooCNJZEg-o8I05rJMH4NyHPfL-0175tGQkbylKjSpCQ_Q3WHkSgR5Q/exec";
+    const GAS_URL = "https://script.google.com/macros/s/AKfycbxmS4WxatJFvN5tJa7yuLlpQ3ZV2fBEKtRM_hVJdQI9mYxlmC4jvxNLZyCs4R4a0zqAGA/exec";
 
     // Apps Script'e isteği giden veriyi bekleterek ilet
     await fetch(GAS_URL, {
