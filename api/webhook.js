@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const GAS_URL = "https://script.google.com/macros/s/AKfycbzV-2DjgwQMz3r57MXZfqO8TVbn9wKzftP7Ch--zk1_mILj8abz1oFcmdKw1TXhbcpK5Q/exec";
+    const GAS_URL = "https://script.google.com/macros/s/AKfycbzpSKsQSzuBpxfkooCNJZEg-o8I05rJMH4NyHPfL-0175tGQkbylKjSpCQ_Q3WHkSgR5Q/exec";
 
     // Telegram'a BEKLEMEDEN anında yanıt dön (Tıkanmayı önler)
     res.status(200).send("OK");
